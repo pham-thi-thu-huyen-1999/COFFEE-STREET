@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Sandwich from "../../../../public/special-menu/item-1.svg";
 import Cart from "../../../../public/cart-white.svg";
-import Button from "../../common/button";
 
 export default function SpecialMenu() {
   return (
