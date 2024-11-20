@@ -1,0 +1,16 @@
+.popular-products {
+  .bg-popular {
+    background-image: url("../../../../public/bg-popular.png");
+    width: 1268px;
+    height: 367px;
+    background-repeat: no-repeat;
+    left: 50%;
+    transform: translateX(-50%);
+    @media screen and (max-width: 768px) {
+      width: 700px;
+    }
+    @media screen and (max-width: 375) {
+      width: 355px;
+    }
+  }
+}
