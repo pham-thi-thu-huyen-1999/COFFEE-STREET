@@ -10,17 +10,17 @@ export default function PopularProducts() {
     { name: "Vanilla Latte", price: "21 K" },
   ];
   return (
-    <div className="popular-products h-[300px] pt-8">
+    <div className="popular-products h-[300px] pt-8 md:pt-4">
       <div className="container">
         <div>
           <div className="header">Popular Now</div>
           <div className="content relative z-[2] mt-[-25%]">
-            <div>
-              <div className="list-product grid grid-cols-3 md:grid-cols-1 gap-x-[24px] md:gap-x-[12px] md:w-[1000px]">
+            <div className="overflow-auto">
+              <div className="list-product flex flex-1 gap-x-[24px] md:gap-x-[12px] md:w-[1000px]">
                 {products.map((item, index) => {
                   return (
                     <div
-                      className="bg-white rounded-[10px] p-4"
+                      className="bg-white rounded-[10px] p-4 w-[33.3%]"
                       key={`popular-${index + 1}`}
                     >
                       <Image
@@ -46,7 +46,7 @@ export default function PopularProducts() {
                 })}
               </div>
             </div>
-            <div className="bg-popular absolute z-[-1] top-[24%]"></div>
+            <div className="bg-popular absolute z-[-1] top-[24%] md:border-[20px]"></div>
           </div>
         </div>
       </div>

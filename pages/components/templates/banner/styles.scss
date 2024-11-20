@@ -1,0 +1,25 @@
+.banner {
+  position: relative;
+  &::before {
+    content: "";
+    background-image: url("../../../../public/element-coffee.svg");
+    position: absolute;
+    right: 0;
+    top: -50;
+    width: 599px;
+    height: 394px;
+    position: absolute;
+    z-index: 1;
+  }
+  &::after {
+    content: "";
+    background-image: url("../../../../public/element-coffee.svg");
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 569px;
+    height: 394px;
+    position: absolute;
+    z-index: 1;
+  }
+}

@@ -1,13 +1,14 @@
 import Image from "next/image";
 import BannerCoffee from "../../../../public/banner.svg";
 import Button from "../../common/button";
+import "./styles.scss";
 
 export default function Banner() {
   return (
-    <section className="pt-[5rem] pb-[250px]">
+    <section className="pt-[5rem] pb-[250px] md:pb-[150px] banner">
       <div className="container">
-        <div className="flex justify-between items-center">
-          <div className="max-w-[489px]">
+        <div className="flex justify-between items-center md:block relative z-[5]">
+          <div className="max-w-[489px] md:mb-8">
             <h3 className="header text-2xl font-bold">
               Enjoy your <span className="text-orange">coffee</span> before your
               activity

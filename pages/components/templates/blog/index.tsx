@@ -5,13 +5,13 @@ import "./styles.scss";
 
 export default function Blog() {
   return (
-    <div className="blog pb-8 mt-[100px]">
+    <div className="blog pb-8 mt-[100px] md:pb-8">
       <div className="container">
-        <div className="flex justify-between items-center">
-          <div className="image-intro mt-[-10%]">
+        <div className="flex justify-between items-center md:flex-wrap">
+          <div className="image-intro mt-[-10%] md:mt-0">
             <Image src={ImageIntro} alt="" />
           </div>
-          <div className="content max-w-[478px] ">
+          <div className="content max-w-[478px] mt-6">
             <h3 className="header text-xl">
               About <span className="border-b-orange border-b-[5px]">us</span>
             </h3>

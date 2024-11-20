@@ -8,9 +8,9 @@ export default function DeliveryService() {
         <div>
           <h5 className="header text-2xl">
             How to use delivery{" "}
-            <span className="border-b-orange border-[5px]">service</span>
+            <span className="border-b-orange border-b-[5px]">service</span>
           </h5>
-          <div className="services grid grid-cols-3 md:grid-cols-1 justify-between mt-[48px]">
+          <div className="services grid grid-cols-3 md:grid-cols-1 md:gap-y-8 justify-between mt-[48px]">
             <div className="item text-center">
               <div className="image-item">
                 <Image src={DeliveryCoffee} alt="" className="m-auto" />
