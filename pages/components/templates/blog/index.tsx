@@ -18,7 +18,7 @@ export default function Blog() {
             <h4 className="title text-medium-1 mt-[24px] text-medium-2">
               We provide quality coffee, and ready to deliver.
             </h4>
-            <p className="description text-secondary mt-[24px] text-secondary">
+            <p className="description text-coffee mt-[24px]">
               We are a company that makes and distributes delicious drinks. our
               main product is made with a secret recipe and available in stores
               worldwide.

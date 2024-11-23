@@ -16,11 +16,12 @@ export default {
         yellow: "#FFD057",
         light: "#9f9f9f",
         coffee: "#2f2105",
+        or_yellow: "#FFD28F",
       },
     },
     // responsive
     screens: {
-      "2xl": { max: "1535px" },
+      "2xl": { min: "1440" },
       xl: { max: "1279px" },
       lg: { max: "1023px" },
       md: { max: "767px" },
@@ -96,9 +97,6 @@ export default {
       // },
       // "@screen lg": {
       //   maxWidth: "",
-      // },
-      // "@screen xl": {
-      //   maxWidth: "1400px",
       // },
     },
   },

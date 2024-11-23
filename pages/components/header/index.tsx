@@ -8,7 +8,7 @@ export default function Header() {
   return (
     <div className="py-4">
       <div className="container">
-        <div className="flex justify-between items-center md:hidden relative z-4">
+        <div className="flex justify-between items-center md:hidden relative z-[4]">
           <div>
             <Image src={LogoCoffee} alt="" />
           </div>

@@ -9,7 +9,7 @@ export default function Banner() {
       <div className="container">
         <div className="flex justify-between items-center md:block relative z-[5]">
           <div className="max-w-[489px] md:mb-8">
-            <h3 className="header text-2xl font-bold">
+            <h3 className="header text-2xl font-bold text-coffee">
               Enjoy your <span className="text-orange">coffee</span> before your
               activity
             </h3>

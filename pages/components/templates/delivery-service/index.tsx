@@ -3,7 +3,7 @@ import DeliveryCoffee from "../../../../public/delivery-coffee.svg";
 
 export default function DeliveryService() {
   return (
-    <div className="delivery-service py-[48px]">
+    <div className="delivery-service py-[48px] pt-[207px]">
       <div className="container">
         <div>
           <h5 className="header text-2xl">
@@ -16,7 +16,9 @@ export default function DeliveryService() {
                 <Image src={DeliveryCoffee} alt="" className="m-auto" />
               </div>
               <div className="content-item mt-[24px]">
-                <div className="title text-medium-2">Choose your coffee</div>
+                <div className="title text-medium-2 text-coffee">
+                  Choose your coffee
+                </div>
                 <p className="description text-medium mt-[12px]">
                   there are 20+ coffees for you
                 </p>
@@ -27,7 +29,9 @@ export default function DeliveryService() {
                 <Image src={DeliveryCoffee} alt="" className="m-auto" />
               </div>
               <div className="content-item mt-[24px]">
-                <div className="title text-medium-2">Choose your coffee</div>
+                <div className="title text-medium-2 text-coffee">
+                  Choose your coffee
+                </div>
                 <p className="description text-medium mt-[12px]">
                   there are 20+ coffees for you
                 </p>
@@ -38,7 +42,9 @@ export default function DeliveryService() {
                 <Image src={DeliveryCoffee} alt="" className="m-auto" />
               </div>
               <div className="content-item mt-[24px]">
-                <div className="title text-medium-2">Choose your coffee</div>
+                <div className="title text-medium-2 text-coffee">
+                  Choose your coffee
+                </div>
                 <p className="description text-medium mt-[12px]">
                   there are 20+ coffees for you
                 </p>
