@@ -2,7 +2,7 @@ import Image from "next/image";
 import Product1 from "../../../../public/products/popular_product-1.svg";
 import Cart from "../../../../public/cart-white.svg";
 import StartIcon from "../../../../public/akar-icons_star.svg";
-import "./styles.scss";
+import style from "./styles.module.scss";
 import { ListStatus } from "./status";
 
 export default function PopularProducts() {
@@ -13,7 +13,7 @@ export default function PopularProducts() {
   ];
 
   return (
-    <div className="popular-products pt-8 md:pt-4 relative z-[2]">
+    <div className={`${style.PopularProducts} pt-8 md:pt-4 relative z-[2]`}>
       <div className="container">
         <div className="mt-[-25%]">
           <div className="header">Popular Now</div>

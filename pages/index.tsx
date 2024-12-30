@@ -6,7 +6,6 @@ import SpecialMenu from "./components/templates/special-menu";
 import Assess from "./components/templates/assess";
 import DiscountBanner from "./components/templates/discount-banner";
 import DeliveryService from "./components/templates/delivery-service";
-import "@/styles/embla.css";
 
 export default function Home() {
   return (

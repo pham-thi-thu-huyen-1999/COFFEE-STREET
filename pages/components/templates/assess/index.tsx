@@ -1,5 +1,5 @@
 import EmblaCarousel from "../../common/embla-carousel";
-import "./styles.scss";
+import style from "./style.module.scss";
 import { EmblaOptionsType } from "embla-carousel";
 export default function Assess() {
   const OPTIONS: EmblaOptionsType = { loop: true };
@@ -7,7 +7,7 @@ export default function Assess() {
   const SLIDES = Array.from(Array(SLIDE_COUNT).keys());
 
   return (
-    <section className="assess py-[50px] my-[60px] xl:px-[24px]">
+    <section className={`${style.Assess} py-[50px] my-[60px] xl:px-[24px]`}>
       <div className="2xl:container">
         <div className="w-[1280px] max-w-full p-[10px] ml-auto mr-0 flex gap-x-[24px]">
           <div className="flex items-center">

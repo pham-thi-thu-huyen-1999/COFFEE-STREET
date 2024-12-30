@@ -1,11 +1,6 @@
 import React from "react";
 import { EmblaOptionsType } from "embla-carousel";
 import { DotButton, useDotButton } from "./EmblaCarouselDotButton";
-import {
-  PrevButton,
-  NextButton,
-  usePrevNextButtons,
-} from "./EmblaCarouselArrowButtons";
 import useEmblaCarousel from "embla-carousel-react";
 import Customer1 from "@/public/person-assess/person-1.svg";
 import Image from "next/image";
@@ -22,12 +17,12 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
   const { selectedIndex, scrollSnaps, onDotButtonClick } =
     useDotButton(emblaApi);
 
-  const {
-    prevBtnDisabled,
-    nextBtnDisabled,
-    onPrevButtonClick,
-    onNextButtonClick,
-  } = usePrevNextButtons(emblaApi);
+  // const {
+  //   prevBtnDisabled,
+  //   nextBtnDisabled,
+  //   onPrevButtonClick,
+  //   onNextButtonClick,
+  // } = usePrevNextButtons(emblaApi);
 
   return (
     <section className="embla">

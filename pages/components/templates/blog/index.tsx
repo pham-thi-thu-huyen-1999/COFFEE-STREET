@@ -1,11 +1,11 @@
 import Image from "next/image";
 import ImageIntro from "../../../../public/image-intro.svg";
 import Button from "../../common/button";
-import "./styles.scss";
+import style from "./styles.module.scss";
 
 export default function Blog() {
   return (
-    <div className="blog pb-8 mt-[100px] md:pb-8">
+    <div className={`${style.BlogStyle} pb-8 mt-[100px] md:pb-8`}>
       <div className="container">
         <div className="flex justify-between items-center md:flex-wrap">
           <div className="image-intro mt-[-10%] md:mt-0">
