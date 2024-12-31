@@ -1,6 +1,6 @@
 import Image from "next/image";
-import ImageIntro from "../../../../public/image-intro.svg";
-import Button from "../../common/button";
+import ImageIntro from "@/public/image-intro.svg";
+import Button from "../../button";
 import style from "./styles.module.scss";
 
 export default function Blog() {

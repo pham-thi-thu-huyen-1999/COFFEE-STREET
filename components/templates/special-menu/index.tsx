@@ -1,7 +1,7 @@
 import Image from "next/image";
-import Sandwich from "../../../../public/special-menu/item-1.svg";
-import Cart from "../../../../public/cart-white.svg";
-import StartIcon from "../../../../public/akar-icons_star.svg";
+import Sandwich from "@/public/special-menu/item-1.svg";
+import Cart from "@/public/cart-white.svg";
+import StartIcon from "@/public/akar-icons_star.svg";
 
 export default function SpecialMenu() {
   const menu = [

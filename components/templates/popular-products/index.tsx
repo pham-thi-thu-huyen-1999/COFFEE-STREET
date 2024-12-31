@@ -1,7 +1,7 @@
 import Image from "next/image";
-import Product1 from "../../../../public/products/popular_product-1.svg";
-import Cart from "../../../../public/cart-white.svg";
-import StartIcon from "../../../../public/akar-icons_star.svg";
+import Product1 from "@/public/products/popular_product-1.svg";
+import Cart from "@/public/cart-white.svg";
+import StartIcon from "@/public/akar-icons_star.svg";
 import style from "./styles.module.scss";
 import { ListStatus } from "./status";
 

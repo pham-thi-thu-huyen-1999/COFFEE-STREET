@@ -1,6 +1,6 @@
 import Image from "next/image";
-import LogoCoffee from "../../../public/logo_coffee.svg";
-import Cart from "../../../public/cart.svg";
+import LogoCoffee from "@/public/logo_coffee.svg";
+import Cart from "@/public/cart.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 

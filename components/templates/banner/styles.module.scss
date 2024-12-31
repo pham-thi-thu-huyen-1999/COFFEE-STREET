@@ -2,7 +2,7 @@
   position: relative;
   &::before {
     content: "";
-    background-image: url("../../../../public/element-coffee.svg");
+    background-image: url("../../../public/element-coffee.svg");
     position: absolute;
     right: 0;
     top: -80;
@@ -13,7 +13,7 @@
   }
   &::after {
     content: "";
-    background-image: url("../../../../public/element-coffee.svg");
+    background-image: url("../../../public/element-coffee.svg");
     position: absolute;
     bottom: 0;
     left: 0;

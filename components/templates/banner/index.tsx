@@ -1,6 +1,6 @@
 import Image from "next/image";
-import BannerCoffee from "../../../../public/banner.svg";
-import Button from "../../common/button";
+import BannerCoffee from "@/public/banner.svg";
+import Button from "../../button";
 import style from "./styles.module.scss";
 
 export default function Banner() {

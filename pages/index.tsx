@@ -1,11 +1,11 @@
-import Header from "./components/header";
-import Banner from "./components/templates/banner";
-import PopularProducts from "./components/templates/popular-products";
-import Blog from "./components/templates/blog";
-import SpecialMenu from "./components/templates/special-menu";
-import Assess from "./components/templates/assess";
-import DiscountBanner from "./components/templates/discount-banner";
-import DeliveryService from "./components/templates/delivery-service";
+import Header from "@/components/header";
+import Banner from "@/components/templates/banner";
+import PopularProducts from "@/components/templates/popular-products";
+import Blog from "@/components/templates/blog";
+import SpecialMenu from "@/components/templates/special-menu";
+import Assess from "@/components/templates/assess";
+import DiscountBanner from "@/components/templates/discount-banner";
+import DeliveryService from "@/components/templates/delivery-service";
 
 export default function Home() {
   return (

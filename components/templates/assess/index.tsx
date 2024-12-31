@@ -1,4 +1,4 @@
-import EmblaCarousel from "../../common/embla-carousel";
+import EmblaCarousel from "@/components/embla-carousel";
 import style from "./style.module.scss";
 import { EmblaOptionsType } from "embla-carousel";
 export default function Assess() {

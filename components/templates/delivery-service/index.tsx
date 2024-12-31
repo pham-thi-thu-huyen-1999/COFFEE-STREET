@@ -1,5 +1,5 @@
 import Image from "next/image";
-import DeliveryCoffee from "../../../../public/delivery-coffee.svg";
+import DeliveryCoffee from "@/public/delivery-coffee.svg";
 
 export default function DeliveryService() {
   return (

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { TButton } from "./type";
-import Cart from "../../../../public/cart-white.svg";
+import Cart from "@/public/cart-white.svg";
 
 export default function Button(type: TButton) {
   return (
